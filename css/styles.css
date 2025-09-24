@@ -24,9 +24,11 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
 .header-logo .logo-part {
   color: #2e2f42;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .nav-link {
@@ -54,8 +56,9 @@ a {
 }
 
 /* Hero */
-.hero-title {
+.post {
   background-color: #2e2f42;
+  color: #fff;
 }
 h1 {
   font-weight: 700;
@@ -63,7 +66,6 @@ h1 {
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
 }
 
 button {
@@ -80,4 +82,76 @@ button {
 button:hover,
 button:focus {
   background-color: #404bbf;
+}
+
+/* Feature */
+
+.feature-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Teams */
+
+.teams {
+  background: #f4f4fd;
+}
+.teams-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.teams-list {
+}
+.teams-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+.teams-img {
+}
+.teams-name,
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.teams-text,
+.portfolio-text,
+.page-footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+/*  Portfolio */
+.portfolio-list {
+}
+.portfolio-img {
+}
+
+/* Footer */
+.page-footer {
+  background-color: #2e2f42;
+}
+.page-footer > .page-footer-text {
+  color: #f4f4fd;
 }
